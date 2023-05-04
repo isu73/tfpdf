@@ -5,7 +5,7 @@ Arial and Times New Roman True Type fonts were added to "unifont" folder.<br>
 You can add more fonts, True Type only.<br>
 $pdf->AddFont('arial','','arial.ttf',true);<br>
 $pdf->AddFont('times','','times.ttf',true);<br><br>
-Additional funczions:<br>
+Additional functions:<br>
 GetMultiCellHeight (border, fill variable not needed<br>
 $pdf->GetMultiCellHeight($w, $h, $txt, $align)<br><br>
 MultiCellWithOffset(offset cell left/right)<br>
