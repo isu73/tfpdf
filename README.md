@@ -1,7 +1,7 @@
 # tFPDF
-The original code available at http://fpdf.org/en/script/script92.php<br>
+The original code is available at http://fpdf.org/en/script/script92.php<br>
 This class is a modified version of FPDF that adds UTF-8 support with additional functions.<br><br>
-Arial and Times New Roman True Type fonts added to "unifont" folder.<br>
+Arial and Times New Roman True Type fonts were added to "unifont" folder.<br>
 You can add more fonts, True Type only.<br>
 $pdf->AddFont('arial','','arial.ttf',true);<br>
 $pdf->AddFont('times','','times.ttf',true);<br><br>
