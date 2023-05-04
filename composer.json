@@ -1,0 +1,23 @@
+{
+  "name": "isu73/tfpdf",
+  "homepage": "http://fpdf.org/en/script/script92.php",
+  "description": "This class is a modified version of FPDF that adds UTF-8 support with additional functions.",
+  "type": "library",
+  "keywords": ["pdf", "fpdf", "unicode", "tfpdf"],
+  "license": "LGPL",
+  "authors": [
+    {
+      "name": "Ian Back"
+    }
+  ],
+  "require": {
+    "ext-zlib": "*",
+    "ext-gd": "*"
+  },
+  "autoload": {
+    "classmap": [
+      "tFPDF.php",
+      "font/unifont/ttfonts.php"
+    ]
+  }
+}
